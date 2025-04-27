@@ -12,7 +12,8 @@ steps:
       '--image', 'gcr.io/devcode-457115/laravel_app_db_postgres_stg:staging-$SHORT_SHA',
       '--region', 'us-east4',
       '--platform', 'managed',
-      '--allow-unauthenticated'
+      '--allow-unauthenticated',
+      '--port', '5432'
       ]
 
 images:
