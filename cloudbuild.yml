@@ -8,7 +8,7 @@ steps:
   - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
     entrypoint: gcloud
     args: [
-      'run', 'deploy', 'laravel_app_db_postgres_stg',
+      'run', 'deploy', 'gcp-postgressql-docker',
       '--image', 'gcr.io/devcode-457115/laravel_app_db_postgres_stg:staging-$SHORT_SHA',
       '--region', 'us-east4',
       '--platform', 'managed',
