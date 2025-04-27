@@ -1,0 +1,2 @@
+CREATE DATABASE notion;
+CREATE DATABASE cafeleather;
