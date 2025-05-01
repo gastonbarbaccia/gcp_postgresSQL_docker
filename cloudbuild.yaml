@@ -20,4 +20,4 @@ images:
   - gcr.io/devcode-457115/laravel_app_db_postgres_stg:staging-$SHORT_SHA
 
 options:
-  logging: NONE
+  defaultLogsBucketBehavior: REGIONAL_USER_OWNED_BUCKET
