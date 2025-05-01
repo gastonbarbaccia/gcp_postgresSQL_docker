@@ -10,7 +10,7 @@ steps:
     args: [
       'run', 'deploy', 'gcp-postgressql-docker',
       '--image', 'gcr.io/devcode-457115/laravel_app_db_postgres_stg:staging-$SHORT_SHA',
-      '--region', 'us-east1',
+      '--region', 'us-central1',
       '--platform', 'managed',
       '--allow-unauthenticated',
       '--port', '5432'
